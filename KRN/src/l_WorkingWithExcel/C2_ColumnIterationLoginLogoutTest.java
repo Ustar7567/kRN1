@@ -1,12 +1,12 @@
+package l_WorkingWithExcel;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import l_WorkingWithExcel.C1_FrameworkIterateThroughColumns;
-
-public class C2_LoginLogoutTest {
+public class C2_ColumnIterationLoginLogoutTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		C1_FrameworkIterateThroughColumns frmwrk = new C1_FrameworkIterateThroughColumns();
@@ -36,4 +36,4 @@ public class C2_LoginLogoutTest {
 
 	}
 
-}
+	}
